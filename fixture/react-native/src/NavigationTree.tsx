@@ -28,6 +28,7 @@ import MovieList from "./MovieList";
 import Carousel from "./Carousel";
 import { LayoutOptions } from "./LayoutOptions";
 import ShowcaseApp from "./ShowcaseApp";
+import MVCPExample from "./MVCPExample";
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -107,6 +108,7 @@ const NavigationTree = () => {
           component={FlashListCellRenderer}
           options={{ title: "CellRenderer Examples" }}
         />
+        <Stack.Screen name="MVCPExample" component={MVCPExample} />
         <Stack.Group screenOptions={{ presentation: "modal" }}>
           <Stack.Screen name="Debug" component={DebugScreen} />
         </Stack.Group>

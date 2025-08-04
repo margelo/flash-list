@@ -88,6 +88,10 @@ export const ExamplesScreen = () => {
     },
     { title: "Dynamic Column Span", destination: "DynamicColumnSpan" },
     {
+      title: "MVCP Dynamic Height Example",
+      destination: "MVCPExample",
+    },
+    {
       title: "Showcase App",
       destination: "ShowcaseApp",
     },
